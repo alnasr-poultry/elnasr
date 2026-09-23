@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معرض الصور والفيديوهات | النصر لصناعة معدات مجازر الدواجن</title>
+  <meta name="description" content="معرض الصور والفيديوهات لشركة النصر — شاهد الماكينات، خطوط الإنتاج، أعمال التصنيع والصيانة الميدانية في مجازر الدواجن.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-emblem">
+        <div class="preloader-ring"></div>
+        <div class="preloader-center-icon">ن</div>
+      </div>
+      <h2 class="preloader-brand-title">النـــصـر <span>لمعدات المجازر</span></h2>
+      <p class="preloader-brand-slogan">صناعة مصرية بجودة عالمية</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo-link">
+        <img src="assets/images/logo.png" alt="شعار النصر" class="brand-logo-img" onerror="this.onerror=null; this.src='assets/images/logo.svg';">
+        <div class="brand-text-block">
+          <span class="brand-name">النـــصـر <span>لمعدات المجازر</span></span>
+          <span class="brand-tagline">صناعة مصرية بجودة عالمية</span>
+        </div>
+      </a>
+
+      <nav class="nav-links-wrapper">
+        <a href="index.html" class="nav-link">الرئيسية</a>
+        <a href="about.html" class="nav-link">من نحن</a>
+        <a href="services.html" class="nav-link">خدماتنا</a>
+        <a href="products.html" class="nav-link">منتجاتنا</a>
+        <a href="projects.html" class="nav-link">مشاريعنا</a>
+        <a href="gallery.html" class="nav-link active">المعرض</a>
+        <a href="contact.html" class="nav-link">تواصل معنا</a>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="https://wa.me/201000544931" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp hide-mobile">
+          <i class="fa-brands fa-whatsapp"></i> واتساب
+        </a>
+        <button class="mobile-nav-toggle" aria-label="تبديل القائمة">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge-tag" style="margin-bottom: 0.75rem;">معرض الوسائط</span>
+      <h1 class="section-title">معرض الصور <span>والفيديوهات</span></h1>
+      <div class="breadcrumb-nav">
+        <a href="index.html">الرئيسية</a>
+        <span class="separator"><i class="fa-solid fa-chevron-left"></i></span>
+        <span class="current">المعرض</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="sub-badge">معرض الصور الحي</span>
+        <h2 class="section-title">لقطات من قلب <span>التصنيع والتشغيل</span></h2>
+        <p class="section-desc">
+          استكشف تفاصيل الماكينات، الدقة الهندسية في أعمال الستانلس ستيل، والتجهيزات الميدانية لخطوط المجازر.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">الكل</button>
+        <button class="filter-btn" data-filter="equipment">المعدات</button>
+        <button class="filter-btn" data-filter="projects">المشاريع</button>
+        <button class="filter-btn" data-filter="manufacturing">التصنيع</button>
+        <button class="filter-btn" data-filter="maintenance">الصيانة</button>
+        <button class="filter-btn" data-filter="production-lines">خطوط الإنتاج</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Photo 1: Manufacturing -->
+        <div class="gallery-item reveal" data-category="manufacturing">
+          <img src="assets/images/gallery/gallery-01.jpg" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">التصنيع</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 2: Equipment -->
+        <div class="gallery-item reveal" data-category="equipment">
+          <img src="assets/images/gallery/gallery-02.jpg" alt="مكونات ميكانيكية دقيقة للماكينات" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">المعدات</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 3: Production Lines -->
+        <div class="gallery-item reveal" data-category="production-lines">
+          <img src="assets/images/gallery/gallery-03.jpg" alt="تجميع محرك السير والخط العلوي" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">خطوط الإنتاج</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 4: Maintenance -->
+        <div class="gallery-item reveal" data-category="maintenance">
+          <img src="assets/images/gallery/gallery-04.jpg" alt="اختبار طلمبات الصرف والفاكيوم" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">الصيانة</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 5: Manufacturing -->
+        <div class="gallery-item reveal" data-category="manufacturing">
+          <img src="assets/images/gallery/gallery-05.jpg" alt="اختبار تشغيل حوض السمط" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">التصنيع</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 6: Projects -->
+        <div class="gallery-item reveal" data-category="projects">
+          <img src="assets/images/gallery/gallery-06.jpg" alt="تركيب نتافة دوارة في موقع المجزر" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">المشاريع</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 7: Equipment -->
+        <div class="gallery-item reveal" data-category="equipment">
+          <img src="assets/images/gallery/gallery-07.jpg" alt="شواكل ستانلس ستيل ومفردات السير" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">المعدات</span>
+            
+          </div>
+        </div>
+
+        <!-- Photo 8: Production Lines -->
+        <div class="gallery-item reveal" data-category="production-lines">
+          <img src="assets/images/gallery/gallery-08.jpg" alt="لوحة التحكم والتحويل المتزامن للخط" loading="lazy">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">خطوط الإنتاج</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Gallery Section -->
+  <section class="video-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="sub-badge">فيديوهات حية</span>
+        <h2 class="section-title">فيديوهات التشغيل <span>والاختبار</span></h2>
+        <p class="section-desc">
+          شاهد الماكينات أثناء التشغيل التجريبي في ورشنا الهندسية ومواقع المجازر.
+        </p>
+      </div>
+
+      <div class="video-grid">
+        <!-- Video 1 -->
+        <div class="video-card reveal" data-video-src="assets/videos/hero.mp4" >
+          <div class="video-thumbnail-box">
+            <img src="assets/images/hero.jpg"  loading="lazy">
+            <div class="play-button-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-info-box">
+            
+            <p style="color: var(--gray); font-size: 0.88rem;"></p>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-card reveal" data-video-src="assets/videos/hero2.mp4" >
+          <div class="video-thumbnail-box">
+            <img src="assets/images/products/product-05.jpg"  loading="lazy">
+            <div class="play-button-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-info-box">
+            
+            <p style="color: var(--gray); font-size: 0.88rem;"></p>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card reveal" data-video-src="assets/videos/hero3.mp4" >
+          <div class="video-thumbnail-box">
+            <img src="assets/images/products/product-02.jpg"  loading="lazy">
+            <div class="play-button-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-info-box">
+            
+            <p style="color: var(--gray); font-size: 0.88rem;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox-backdrop">
+    <button class="lightbox-close" aria-label="إغلاق">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button class="lightbox-nav-btn lightbox-prev" aria-label="الصورة السابقة">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+    <button class="lightbox-nav-btn lightbox-next" aria-label="الصورة التالية">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="lightbox-image-wrapper">
+      <img id="lightboxImg" class="lightbox-img" src="" alt="صورة مكبرة">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Video Player Modal -->
+  <div id="videoModal" class="modal-backdrop">
+    <div class="modal-container" style="max-width: 860px;">
+      <button id="closeVideoModal" class="modal-close-btn" aria-label="إغلاق الفيديو">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div style="padding: 1.5rem;">
+        <h3 id="videoModalTitle" style="font-size: 1.35rem; margin-bottom: 1rem; color: var(--white);">مشاهدة الفيديو</h3>
+        <div id="videoContainer" style="background: #000; border-radius: 8px; overflow: hidden; min-height: 280px; display: flex; align-items: center; justify-content: center;">
+          <!-- Injected dynamically via main.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-info">
+          <div class="brand-text-block">
+            <span class="brand-name" style="font-size: 1.6rem;">النـــصـر <span>لمعدات المجازر</span></span>
+            <span class="brand-tagline" style="color: var(--yellow); font-size: 0.85rem;">صناعة مصرية بجودة عالمية</span>
+          </div>
+          <p>
+            شركة مصرية متخصصة في تصنيع وصيانة معدات مجازر الدواجن، وتوفير قطع الغيار اللازمة للمجزر بالكامل في وقت قياسي.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/201000544931" target="_blank" rel="noopener noreferrer" class="social-icon-btn whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/Nasr.Poultry" target="_blank" rel="noopener noreferrer" class="social-icon-btn facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">روابط سريعة</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-left"></i> الرئيسية</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-left"></i> من نحن</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> خدماتنا</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-chevron-left"></i> منتجاتنا</a></li>
+            <li><a href="projects.html"><i class="fa-solid fa-chevron-left"></i> مشاريعنا</a></li>
+            <li><a href="gallery.html"><i class="fa-solid fa-chevron-left"></i> المعرض</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-left"></i> تواصل معنا</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">مجالات العمل</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> تصنيع ماكينات المجازر</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> خطوط إنتاج متكاملة</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> طلمبات صرف وفاكيوم</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> الصيانة والإصلاح</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> فك وتركيب المجازر</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-left"></i> توفير قطع الغيار</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">تواصل مباشر</h4>
+          <ul class="footer-links-list">
+            <li>
+              <a href="https://wa.me/201000544931" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp text-yellow"></i>
+                <span dir="ltr">+20 100 054 4931</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Nasr.Poultry" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook text-yellow"></i>
+                <span>Nasr.Poultry</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 النصر لصناعة معدات مجازر الدواجن — جميع الحقوق محفوظة.</div>
+        <div>صناعة مصرية بجودة عالمية</div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/201000544931" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn" aria-label="واتساب">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-whatsapp-tooltip">تواصل معنا عبر واتساب</span>
+  </a>
+
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="الرجوع للأعلى">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
